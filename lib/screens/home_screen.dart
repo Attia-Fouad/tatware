@@ -39,6 +39,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Color color=HexColor('#16919B');
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
@@ -533,8 +534,10 @@ class HomeScreen extends StatelessWidget {
                                           padding: const EdgeInsets.all(16.0),
                                           child: Row(
                                             children: [
-                                              const ImageIcon(AssetImage(
-                                                  'assets/images/itIcon.png')),
+                                               ImageIcon(const AssetImage(
+                                                  'assets/images/itIcon.png'),
+                                                color: color,
+                                              ),
                                               const SizedBox(
                                                 width: 10,
                                               ),
@@ -599,8 +602,10 @@ class HomeScreen extends StatelessWidget {
                                           padding: const EdgeInsets.all(16.0),
                                           child: Row(
                                             children: [
-                                              const ImageIcon(AssetImage(
-                                                  'assets/images/supplychain.png')),
+                                               ImageIcon(const AssetImage(
+                                                  'assets/images/supplychain.png'),
+                                                  color: color,
+                                              ),
                                               const SizedBox(
                                                 width: 10,
                                               ),
@@ -666,8 +671,10 @@ class HomeScreen extends StatelessWidget {
                                           padding: const EdgeInsets.all(16.0),
                                           child: Row(
                                             children: [
-                                              const ImageIcon(AssetImage(
-                                                  'assets/images/security.png')),
+                                               ImageIcon(const AssetImage(
+                                                  'assets/images/security.png'),
+                                                color: color,
+                                              ),
                                               const SizedBox(
                                                 width: 10,
                                               ),
@@ -732,8 +739,10 @@ class HomeScreen extends StatelessWidget {
                                           padding: const EdgeInsets.all(16.0),
                                           child: Row(
                                             children: [
-                                              const ImageIcon(AssetImage(
-                                                  'assets/images/humanresources.png')),
+                                               ImageIcon(const AssetImage(
+                                                  'assets/images/humanresources.png'),
+                                                color: color,
+                                              ),
                                               const SizedBox(
                                                 width: 10,
                                               ),
@@ -798,8 +807,10 @@ class HomeScreen extends StatelessWidget {
                                           padding: const EdgeInsets.all(16.0),
                                           child: Row(
                                             children: [
-                                              const ImageIcon(AssetImage(
-                                                  'assets/images/immigration.png')),
+                                               ImageIcon(const AssetImage(
+                                                  'assets/images/immigration.png'),
+                                                 color: color,
+                                               ),
                                               const SizedBox(
                                                 width: 10,
                                               ),
@@ -864,8 +875,10 @@ class HomeScreen extends StatelessWidget {
                                           padding: const EdgeInsets.all(16.0),
                                           child: Row(
                                             children: [
-                                              const ImageIcon(AssetImage(
-                                                  'assets/images/translation.png')),
+                                               ImageIcon(const AssetImage(
+                                                  'assets/images/translation.png'),
+                                                color: color,
+                                              ),
                                               const SizedBox(
                                                 width: 10,
                                               ),
